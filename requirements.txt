@@ -1,0 +1,7 @@
+# Example requirements for Mind TEE
+# Real TEE integration requires additional specialized dependencies (Intel SGX, etc.)
+
+loguru==0.5.3
+pytest==7.2.0
+unittest-xml-reporting==3.0.4
+# Possibly: sgx-py==<version> or similar for real Intel SGX integration
